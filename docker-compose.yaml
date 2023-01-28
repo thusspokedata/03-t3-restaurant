@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  t3-restaurant-db:
+    image: mongo:5.0.0
+    container_name: t3-restaurant
+    ports:
+      - 27017:27017
+    volumes:
+      - ./mongo:/data/db

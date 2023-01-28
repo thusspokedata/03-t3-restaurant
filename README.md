@@ -32,4 +32,14 @@ Follow our deployment guides for [Vercel](https://create.t3.gg/en/deployment/ver
 ```
 cd t3-restaurant
 npx prisma db push
-npm run dev# t3-restaurant
+npm run dev
+
+```
+
+```js
+docker-compose up -d
+```
+
+<pre>
+mongodb://localhost:27017/t3-restaurant-db
+</pre>
